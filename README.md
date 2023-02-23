@@ -1,6 +1,6 @@
 # Donate
 
-## Simple JS App - [Demo](https://mve-react-clicker.vercel.app/)
+## Simple JS App - [Demo](https://mve-js-donate.vercel.app/)
 
 ### App Donate with donate list and total amount
 
