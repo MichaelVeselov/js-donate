@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Donates</title>
+  </head>
+  <body>
+    <form class="donate-form">
+      <h1 id="total-amount">28$</h1>
+      <label class="donate-form__input-label">
+        Please enter amount in $
+        <input
+          class="donate-form__donate-input"
+          name="amount"
+          type="number"
+          inputmode="numeric"
+          step="1"
+          max="100"
+          min="1"
+          required=""
+          placeholder="20.00"
+          autocomplete="off"
+          autofocus
+        />
+      </label>
+      <button class="donate-form__submit-button" type="submit">Donate</button>
+    </form>
+
+    <div class="donates-container">
+      <h2 class="donates-container__title">Donate list</h2>
+      <div class="donates-container__donates"></div>
+    </div>
+  </body>
+</html>
